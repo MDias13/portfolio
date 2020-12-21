@@ -8,4 +8,4 @@ Teste de Site Para Portifolio
 :package:nova Funcionalidade
 :up: Atualização
 :beatle: correção de Bug
-:checkred_flag: Release
+:checkered_flag: Release
