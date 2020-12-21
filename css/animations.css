@@ -1,0 +1,19 @@
+@keyframes zoom {
+    0% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes movebanner {
+    0% {
+        transform: translateY(10rem) rotateY(-30deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+}
