@@ -8,5 +8,5 @@ Teste de Site Para Portifolio
 :package:nova Funcionalidade
 :up: Atualização
 :poop: correção de Bug
-:checkred_flag: Release
+:grin: Release
 
