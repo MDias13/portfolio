@@ -1,5 +1,5 @@
-# portifolio
-Teste de Site Para Portifolio
+# portfólio
+Exemplo de Site Portfolio
 
 ## tarefas
 
