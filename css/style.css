@@ -136,7 +136,7 @@ header {
     color: white;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    background: #6a3093;
+    
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
@@ -144,6 +144,7 @@ header {
     border: none;
     border-radius: 5px; 
     cursor: pointer;
+    background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
     background: linear-gradient(to right, #a044ff, #6a3093); 
 
@@ -160,6 +161,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all .6s;
+    z-index: 99;
 
 }
 .show-menu .sidebar {
@@ -296,6 +298,88 @@ header {
     margin-left: 200px;
     margin-bottom: 20px;
    
+
+}
+
+/* pROJETOS */
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+}
+.card-img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #262626;
+    border-radius:  2rem 2rem .3rem .3rem;
+
+}
+.card-img-wrapper img {
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: .8; 
+    transition: all .3s;
+}
+.card:hover .card-img-wrapper img {
+    opacity: .5;
+}
+.card-info {
+    position: absolute;
+    bottom: 0;
+    padding: 4rem;
+    text-shadow: 0 0.2rem 0.3rem rgba(0,0,0, .6);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.card-info h2 {
+    font-family: "baloo da 2",serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #eee;
+}
+.card-info h3 {
+    font-family: "Josefin Slab",serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #eee;
+    margin-bottom: 1.5rem;
+}
+.card-info p {
+    font-family: "Mulish",serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #eee;
+    width:80%;
+    margin-bottom: 2rem;
+}
+.card-info button {
+    
+    width: 8rem;
+    height: 2.5rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
+    background: linear-gradient(to right, #a044ff, #6a3093); 
+    color: white;
+    font-family: "Josefin Slab",serif;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .8rem rgba(0,0,0, .4) ;
+    border: none;
+    
+}
+.card:hover .card-info {
+    opacity: 1;
+    visibility: visible;
 
 }
 
