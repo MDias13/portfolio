@@ -364,17 +364,18 @@ header {
 }
 .card-info button {
     
-    width: 8rem;
+    width: 10rem;
     height: 2.5rem;
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
     background: linear-gradient(to right, #a044ff, #6a3093); 
     color: white;
     font-family: "Josefin Slab",serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     border-radius: .5rem;
     box-shadow: 0 .1rem .8rem rgba(0,0,0, .4) ;
     border: none;
+    cursor: pointer;
     
 }
 .card:hover .card-info {
